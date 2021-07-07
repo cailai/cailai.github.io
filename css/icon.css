@@ -1,0 +1,44 @@
+/* 社交图标设置/ */
+@font-face {
+  font-family: "iconfont"; /* Project id 2656958 */
+  src: url('//at.alicdn.com/t/font_2656958_m9nqb3azrwq.woff2?t=1625628697982') format('woff2'),
+       url('//at.alicdn.com/t/font_2656958_m9nqb3azrwq.woff?t=1625628697982') format('woff'),
+       url('//at.alicdn.com/t/font_2656958_m9nqb3azrwq.ttf?t=1625628697982') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-bilibili-line:before {
+  content: "\eeac";
+  font-size: 25px;
+  color: pink;
+}
+
+.icon-qq:before {
+  content: "\e600";
+  font-size: 20px;
+  color: #4CAFE9;
+}
+
+.icon-GitHub:before {
+  content: "\e6d5";
+  font-size: 24px;
+}
+
+.icon-youxiang:before {
+  content: "\e739";
+  font-size: 23px;
+  color: rgb(75, 154, 252);
+}
+
+.icon-weixin:before {
+  content: "\e665";
+  font-size: 25px;
+  color: #4CBF00;
+}
