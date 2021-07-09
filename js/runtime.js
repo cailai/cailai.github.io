@@ -1,3 +1,4 @@
+// 页脚电子钟计时 (原生)
 setInterval(() => {
   let create_time = Math.round(new Date('2019-04-17 00:00:00').getTime() / 1000); //在此行修改建站时间
   let timestamp = Math.round((new Date().getTime()) / 1000);
@@ -28,11 +29,11 @@ setInterval(() => {
   }//秒
   //早上7点到晚上10点营业
   if ((Number(time[2])<22) && (Number(time[2])>7)){
-    currentTimeHtml ="<img class='boardsign' src='https://img.shields.io/badge/小站-营业中-6adea8?style=social&logo=cakephp' title='距离百年老店也就差不到一百年~'><div id='runtime'>" + time[0] + ' YEAR ' + time[1] + ' DAYS ' + time[2] + ' : ' + time[3] + ' : ' + time[4] + '</div>';
+    currentTimeHtml ="<img class='boardsign' src='https://img.shields.io/badge/CaiLai的小站-营业中-6adea8?style=social&logo=cakephp' title='距离百年老店也就差不到一百年~'><div id='runtime'>" + time[0] + ' YEAR ' + time[1] + ' DAYS ' + time[2] + ' : ' + time[3] + ' : ' + time[4] + '</div>';
   } //徽标内容参考站内教程
   //其余时间打烊
   else{
-    currentTimeHtml ="<img class='boardsign' src='https://img.shields.io/badge/小站-打烊了-6adea8?style=social&logo=coffeescript' title='这个点了应该去睡觉啦，熬夜对身体不好哦'><div id='runtime'>" + time[0] + ' YEAR ' + time[1] + ' DAYS ' + time[2] + ' : ' + time[3] + ' : ' + time[4] + '</div>'; //徽标内容参考站内教程
+    currentTimeHtml ="<img class='boardsign' src='https://img.shields.io/badge/CaiLai的小站-打烊了-6adea8?style=social&logo=coffeescript' title='这个点了应该去睡觉啦，熬夜对身体不好哦'><div id='runtime'>" + time[0] + ' YEAR ' + time[1] + ' DAYS ' + time[2] + ' : ' + time[3] + ' : ' + time[4] + '</div>'; //徽标内容参考站内教程
   }
   //覆写挂载标签的内容
   document.getElementById("workboard").innerHTML = currentTimeHtml;
