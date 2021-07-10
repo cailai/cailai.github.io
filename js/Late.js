@@ -1,3 +1,5 @@
+/* 乐特博客自定义js文件 */
+
 /**
  * Created by Lete on 2020/7/7.
  * Butterfly在3.4.0版本后去除了jQuery

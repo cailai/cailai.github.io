@@ -1,3 +1,5 @@
+/* Akilar糖果屋自定义样式 */
+
 /* 用于设置 ©2020 - 2021 By Cai Lai 下外边距*/
 #footer-wrap .copyright{
 margin-bottom: 10px;
@@ -16,4 +18,34 @@ margin-bottom: 10px;
 }
 
 
+/* 添加图标默认样式和振翅蝴蝶动画 */
+/*iconfont默认样式*/
+.icon {
+    width: 1em; height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+    }
+  /* 页脚蝴蝶振翅动画 */
+  .copyright svg{
+    animation:butterfly 1s linear infinite alternate;
+  }
+  @keyframes butterfly {
+    from {
+      transform:rotateY(70deg);
+    }
+    to {
+      transform:rotateY(0deg);
+    }
+  }
 
+
+/* 时间轴生肖美化方案 */
+svg.icon {
+  /* 这里定义svg.icon，避免和Butterfly自带的note标签冲突 */
+   width: 1em; height: 1em;
+   /* width和height定义图标的默认宽度和高度*/
+   vertical-align: -0.15em;
+   fill: currentColor;
+   overflow: hidden;
+}
