@@ -127,12 +127,12 @@
 
 
 /* 9、鼠标样式 */
-body * {
+/* body * {
   cursor: url(https://cdn.jsdelivr.net/gh/lete114/CDN@1.0/Use/Jkll8I.png), auto !important;
 }
 a i:hover,body a:hover,button i:hover,button:hover {
   cursor: url(https://cdn.jsdelivr.net/gh/lete114/CDN@1.0/Use/JkuClT.png), auto !important;
-}
+} */
 
 
 /* 10、滚动条 */
