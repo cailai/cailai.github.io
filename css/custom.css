@@ -88,3 +88,9 @@ i:hover{
 #nav .site-page:hover{
       cursor: url('https://cdn.jsdelivr.net/npm/akilar-candyassets/cur/hf.cur'),auto;
 }
+
+
+/* 解决 “历史上的今天” 模块部分背景不透明的问题 */
+#history-baidu *{
+  background: var(--light_bg_color);
+}
