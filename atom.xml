@@ -6,7 +6,7 @@
   <link href="https://cailai.github.io/atom.xml" rel="self"/>
   
   <link href="https://cailai.github.io/"/>
-  <updated>2021-07-10T12:46:49.888Z</updated>
+  <updated>2021-07-10T12:46:07.239Z</updated>
   <id>https://cailai.github.io/</id>
   
   <author>
@@ -15,30 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>Git基础</title>
-    <link href="https://cailai.github.io/2021/07/10/Git%E5%9F%BA%E7%A1%80/"/>
-    <id>https://cailai.github.io/2021/07/10/Git%E5%9F%BA%E7%A1%80/</id>
-    <published>2021-07-10T11:44:14.712Z</published>
-    <updated>2021-07-10T12:46:49.888Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="Git配置"><a href="#Git配置" class="headerlink" title="Git配置"></a>Git配置</h1><p>1、查看配置   </p><figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git config -l</span><br></pre></td></tr></tbody></table></figure><p>2、查看系统配置</p><figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git config --system --list</span><br></pre></td></tr></tbody></table></figure><p>3、查看当前用户配置</p><figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git config  --global --list</span><br></pre></td></tr></tbody></table></figure><h1 id="Git项目搭建"><a href="#Git项目搭建" class="headerlink" title="Git项目搭建"></a>Git项目搭建</h1><p>1、从工作目录到暂存区</p><figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git add .</span><br></pre></td></tr></tbody></table></figure><p>2、从暂存区提交到本地仓库</p><figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git commit</span><br></pre></td></tr></tbody></table></figure><p>3、从本地仓库提交到远程</p><figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git push</span><br></pre></td></tr></tbody></table></figure><h1 id="Git文件操作"><a href="#Git文件操作" class="headerlink" title="Git文件操作"></a>Git文件操作</h1><p>1、本地仓库搭建</p><figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git init</span><br></pre></td></tr></tbody></table></figure><p>2、克隆远程仓库</p><figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git clone [链接地址]</span><br></pre></td></tr></tbody></table></figure><h1 id="查看文件状态"><a href="#查看文件状态" class="headerlink" title="查看文件状态"></a>查看文件状态</h1><p>1、查看指定文件状态</p><figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git status [文件名]</span><br></pre></td></tr></tbody></table></figure><p>2、查看所有文件状态</p><figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">git status</span><br><span class="line"></span><br><span class="line"># git add .     提交所有文件到暂存区</span><br><span class="line"># git commit -m "消息内容" 提交暂存区中的内容到本地仓库 -m 提交信息</span><br></pre></td></tr></tbody></table></figure>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
-      
-    
-    
-    
-    <category term="Git基础" scheme="https://cailai.github.io/categories/Git%E5%9F%BA%E7%A1%80/"/>
-    
-    
-    <category term="Git基础操作" scheme="https://cailai.github.io/tags/Git%E5%9F%BA%E7%A1%80%E6%93%8D%E4%BD%9C/"/>
-    
-  </entry>
   
   <entry>
     <title>常用基础Dos命令</title>
@@ -85,6 +61,30 @@
     
     
     <category term="Markdown基础" scheme="https://cailai.github.io/tags/Markdown%E5%9F%BA%E7%A1%80/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Git基础</title>
+    <link href="https://cailai.github.io/2021/07/05/Git%E5%9F%BA%E7%A1%80/"/>
+    <id>https://cailai.github.io/2021/07/05/Git%E5%9F%BA%E7%A1%80/</id>
+    <published>2021-07-04T22:00:00.000Z</published>
+    <updated>2021-07-11T01:56:03.920Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="Git配置"><a href="#Git配置" class="headerlink" title="Git配置"></a>Git配置</h1><p>1、查看配置   </p><figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git config -l</span><br></pre></td></tr></tbody></table></figure><p>2、查看系统配置</p><figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git config --system --list</span><br></pre></td></tr></tbody></table></figure><p>3、查看当前用户配置</p><figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git config  --global --list</span><br></pre></td></tr></tbody></table></figure><h1 id="Git项目搭建"><a href="#Git项目搭建" class="headerlink" title="Git项目搭建"></a>Git项目搭建</h1><p>1、从工作目录到暂存区</p><figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git add .</span><br></pre></td></tr></tbody></table></figure><p>2、从暂存区提交到本地仓库</p><figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git commit</span><br></pre></td></tr></tbody></table></figure><p>3、从本地仓库提交到远程</p><figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git push</span><br></pre></td></tr></tbody></table></figure><h1 id="Git文件操作"><a href="#Git文件操作" class="headerlink" title="Git文件操作"></a>Git文件操作</h1><p>1、本地仓库搭建</p><figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git init</span><br></pre></td></tr></tbody></table></figure><p>2、克隆远程仓库</p><figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git clone [链接地址]</span><br></pre></td></tr></tbody></table></figure><h1 id="查看文件状态"><a href="#查看文件状态" class="headerlink" title="查看文件状态"></a>查看文件状态</h1><p>1、查看指定文件状态</p><figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git status [文件名]</span><br></pre></td></tr></tbody></table></figure><p>2、查看所有文件状态</p><figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">git status</span><br><span class="line"></span><br><span class="line"># git add .     提交所有文件到暂存区</span><br><span class="line"># git commit -m "消息内容" 提交暂存区中的内容到本地仓库 -m 提交信息</span><br></pre></td></tr></tbody></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    <category term="Git基础" scheme="https://cailai.github.io/categories/Git%E5%9F%BA%E7%A1%80/"/>
+    
+    
+    <category term="Git基础操作" scheme="https://cailai.github.io/tags/Git%E5%9F%BA%E7%A1%80%E6%93%8D%E4%BD%9C/"/>
     
   </entry>
   
