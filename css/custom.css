@@ -94,3 +94,12 @@ i:hover{
 #history-baidu *{
   background: var(--light_bg_color);
 }
+
+
+/* 优化主页 中间文字 模块 上边距距离 */
+#page-header.full_page #site-info {
+  position: absolute;
+  top: 30%;
+  padding: 0 0.5rem;
+  width: 100%;
+}
