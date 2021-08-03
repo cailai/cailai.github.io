@@ -355,7 +355,7 @@ if ('Valine' === 'Disqus' || !true) {
 POWERMODE.shake = true;
 POWERMODE.mobile = false;
 document.body.addEventListener('input', POWERMODE);
-</script><script id="click-heart" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/click-heart.min.js" async="async" mobile="false"></script><script src="//code.tidio.co/edc3waim7qj19wlvbheoakglwxmgipbg.js" async="async"></script><script>function onTidioChatApiReady() {
+</script><script id="click-heart" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/click-heart.min.js" async="async" mobile="false"></script><script src="https://cdn-1.nesxc.com/js/smooth-scrolling.js"></script><script src="//code.tidio.co/edc3waim7qj19wlvbheoakglwxmgipbg.js" async="async"></script><script>function onTidioChatApiReady() {
   window.tidioChatApi.hide();
   window.tidioChatApi.on("close", function() {
     window.tidioChatApi.hide();
@@ -459,38 +459,39 @@ document.addEventListener('pjax:error', (e) => {
   }
 })</script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div><!-- 增加鼠标右键功能 -->
 
-    <div class="GalMenu GalDropDown">
-       <div class="circle" id="gal">
-         <div class="ring">
-           <a href="/" class="menuItem">首页</a>
-           <a href="javascript:history.go(1);" class="menuItem">前进</a>
-           <a href="javascript:$('html,body').animate({scrollTop:0},500);" class="menuItem">顶部</a>
-           <a href="javascript:location.reload();" class="menuItem">刷新</a>
-           <a href="/comments/" class="menuItem">留言</a>
-           <a href="javascript:history.go(-1);" class="menuItem">后退</a>
-         </div>
-         
+  <div class="GalMenu GalDropDown">
+     <div class="circle" id="gal">
+       <div class="ring">
+         <a href="/" class="menuItem">首页</a>
+         <a href="javascript:history.go(1);" class="menuItem">前进</a>
+         <a href="javascript:$('html,body').animate({scrollTop:0},500);" class="menuItem">顶部</a>
+         <a href="javascript:location.reload();" class="menuItem">刷新</a>
+         <a href="/comments/" class="menuItem">留言</a>
+         <a href="javascript:history.go(-1);" class="menuItem">后退</a>
        </div>
- </div>
- <script type="text/javascript">
- var items = document.querySelectorAll('.menuItem'); 
- for (var i = 0, l = items.length; i < l; i++) {
-     items[i].style.left = (50 - 35 * Math.cos( - 0.5 * Math.PI - 2 * (1 / l) * i * Math.PI)).toFixed(4) + "%";
-     items[i].style.top = (50 + 35 * Math.sin( - 0.5 * Math.PI - 2 * (1 / l) * i * Math.PI)).toFixed(4) + "%"
-   }
- </script>
- <script>window.jQuery || document.write('<script src="https://cdn.jsdelivr.net/gh/zyoushuo/Blog@master/hexo/js/jquery-2.1.1.min.js"></script>')</script>    
- 
+       
+     </div>
+</div>
+<script type="text/javascript">
+var items = document.querySelectorAll('.menuItem'); 
+for (var i = 0, l = items.length; i < l; i++) {
+   items[i].style.left = (50 - 35 * Math.cos( - 0.5 * Math.PI - 2 * (1 / l) * i * Math.PI)).toFixed(4) + "%";
+   items[i].style.top = (50 + 35 * Math.sin( - 0.5 * Math.PI - 2 * (1 / l) * i * Math.PI)).toFixed(4) + "%"
+ }
+</script>
+<script>
+window.jQuery || document.write('<script src="https://cdn.jsdelivr.net/gh/zyoushuo/Blog@master/hexo/jquery-2.1.1.min.js>')
+</script>    
+
 <script src="https://cdn.jsdelivr.net/gh/zyoushuo/Blog@master/hexo/js/GalMenu.js"></script>
 
- <script type="text/javascript">
-     $(document).ready(function() {
-     $('body').GalMenu({
-       'menu': 'GalDropDown'
-     })
-   });
- </script>
-
+<script type="text/javascript">
+   $(document).ready(function() {
+   $('body').GalMenu({
+     'menu': 'GalDropDown'
+   })
+ });
+</script>
 <!-- hexo injector body_end start -->
   <script data-pjax src="https://cdn.jsdelivr.net/gh/Zfour/hexo-github-calendar@1.16/hexo_githubcalendar.js"></script>
   <script data-pjax>
