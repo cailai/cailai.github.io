@@ -6,7 +6,7 @@
   <link href="https://cailai.github.io/atom.xml" rel="self"/>
   
   <link href="https://cailai.github.io/"/>
-  <updated>2021-07-17T03:49:29.611Z</updated>
+  <updated>2021-09-11T11:19:34.166Z</updated>
   <id>https://cailai.github.io/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>PHP虚拟机配置</title>
+    <link href="https://cailai.github.io/2021/09/10/PHP%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/"/>
+    <id>https://cailai.github.io/2021/09/10/PHP%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/</id>
+    <published>2021-09-10T13:00:00.000Z</published>
+    <updated>2021-09-11T11:19:34.166Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="一、配置虚拟主机"><a href="#一、配置虚拟主机" class="headerlink" title="一、配置虚拟主机"></a>一、配置虚拟主机</h4><p>​        <strong>1. 找到</strong>：<strong>C:\Windows\System32\drivers\etc\hosts</strong> 文件</p><p>​        </p><p>​        <strong>2. 在hosts文件中配置IP地址和域名的映射关系：</strong><br>​                127.0.0.1 <a href="http://www.myframe.test/">www.myframe.test</a><br>​                127.0.0.1 myframe.test<br>​            <strong>这样做的好处是：</strong>我们想要任何的域名，都可以通过hosts文件来使用它。<br>​            <strong>缺点是：</strong>我们只能在本地进行使用。如果换了一台电脑，那么只能更改它的hosts文件。</p><p>​        <strong>3.修改：httpd.conf文件，启用虚拟主机配置文件，去掉“#”号：</strong></p><figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"># Include conf/extra/httpd-vhosts.conf</span><br></pre></td></tr></tbody></table></figure><p>​        </p><p>​        <strong>4.修改：C:\Web\Apache24\conf\extra 目录下的 httpd-vhosts.conf 配置文件</strong></p><pre><code># 本地主机&lt;VirtualHost *:8081&gt;    DocumentRoot "C:/Web/Apache24/htdocs"    ServerName localhost&lt;/VirtualHost&gt;# 虚拟主机&lt;VirtualHost *:8081&gt;    # 文档根    DocumentRoot "E:/web/www/myframe/public"    # 服务器名字    ServerName www.myframe.test    # 服务器别名    ServerAlias myframe.test&lt;/VirtualHost&gt;</code></pre><p><strong>本地主机</strong>使用：<strong>localhost:8081</strong>    或者    <strong>127.0.0.1:8081</strong>    进行访问。</p><p><strong>虚拟主机</strong>使用：<strong><a href="http://www.myframe.test:8081/">www.myframe.test:8081</a></strong>    或者    <strong>myframe.test:8081</strong>    进行访问。</p><h4 id="二、访问权限控制"><a href="#二、访问权限控制" class="headerlink" title="二、访问权限控制"></a>二、访问权限控制</h4><figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"># “/表示根目录”</span><br><span class="line">&lt;Directory /&gt;</span><br><span class="line">AllowOverride none不要读取分布式配置文件</span><br><span class="line">Require all denied访问权限控制配置，表示对特定的目录阻止所有的访问。</span><br><span class="line">&lt;/Directory&gt;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"># 代码解析</span><br><span class="line">Require all granted  # 表示对特定的目录允许访问</span><br><span class="line">AllowOverride All    # 表示允许读取分布式配置文件。开启的缺点：会降低服务器的性能</span><br><span class="line">Options Indexes FollowSymLinks   # Options Indexes表示开启目录索引，如果不让它显示可以加个-号。FollowSymLinks表示允许符号链接。</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"># 虚拟机配置文件中添加代码</span><br><span class="line"># 目录权限配置</span><br><span class="line">&lt;Directory "E:/web/www/myframe/public"&gt;</span><br><span class="line">Options -indexes表示不开启目录索引</span><br><span class="line">AllowOverride All允许读取分布式文件</span><br><span class="line">Require local表示只允许本地访问</span><br><span class="line">&lt;/Directory&gt;</span><br></pre></td></tr></tbody></table></figure><h4 id="三、三个配置文件"><a href="#三、三个配置文件" class="headerlink" title="三、三个配置文件"></a>三、三个配置文件</h4><p>​    1.<strong>C:\Windows\System32\drivers\etc\host</strong></p><p>​            hosts：系统配置文件，配置域名</p><p>​    2.‪<strong>C:\Web\Apache24\conf\httpd.conf</strong></p><p>​            httpd.conf：Apache服务器配置文件</p><p>​    3.<strong>C:\Web\Apache24\conf\extra\httpd-vhosts.conf</strong></p><p>​            httpd-vhosts.conf：虚拟机配置文件</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h4 id=&quot;一、配置虚拟主机&quot;&gt;&lt;a href=&quot;#一、配置虚拟主机&quot; class=&quot;headerlink&quot; title=&quot;一、配置虚拟主机&quot;&gt;&lt;/a&gt;一、配置虚拟主机&lt;/h4&gt;&lt;p&gt;​        &lt;strong&gt;1. 找到&lt;/strong&gt;：&lt;strong&gt;C:\Win</summary>
+      
+    
+    
+    
+    <category term="PHP虚拟机配置" scheme="https://cailai.github.io/categories/PHP%E8%99%9A%E6%8B%9F%E6%9C%BA%E9%85%8D%E7%BD%AE/"/>
+    
+    
+    <category term="PHP虚拟机配置" scheme="https://cailai.github.io/tags/PHP%E8%99%9A%E6%8B%9F%E6%9C%BA%E9%85%8D%E7%BD%AE/"/>
+    
+  </entry>
   
   <entry>
     <title>Markdown基础</title>
