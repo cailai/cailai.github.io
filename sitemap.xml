@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://cailai.github.io/2021/09/10/MyBatis%E5%85%A5%E9%97%A8/</loc>
+    <loc>https://cailai.github.io/2021/09/15/MyBatis%E5%85%A5%E9%97%A8/</loc>
     
     <lastmod>2021-09-15</lastmod>
     
@@ -256,14 +256,14 @@
   </url>
   
   <url>
-    <loc>https://cailai.github.io/tags/PHP/</loc>
+    <loc>https://cailai.github.io/tags/%E5%B8%B8%E7%94%A8%E5%9F%BA%E7%A1%80Dos%E5%91%BD%E4%BB%A4/</loc>
     <lastmod>2021-09-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://cailai.github.io/tags/%E5%B8%B8%E7%94%A8%E5%9F%BA%E7%A1%80Dos%E5%91%BD%E4%BB%A4/</loc>
+    <loc>https://cailai.github.io/tags/PHP/</loc>
     <lastmod>2021-09-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -300,14 +300,14 @@
   </url>
   
   <url>
-    <loc>https://cailai.github.io/categories/PHP/</loc>
+    <loc>https://cailai.github.io/categories/%E5%B8%B8%E7%94%A8%E5%9F%BA%E7%A1%80Dos%E5%91%BD%E4%BB%A4/</loc>
     <lastmod>2021-09-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://cailai.github.io/categories/%E5%B8%B8%E7%94%A8%E5%9F%BA%E7%A1%80Dos%E5%91%BD%E4%BB%A4/</loc>
+    <loc>https://cailai.github.io/categories/PHP/</loc>
     <lastmod>2021-09-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>

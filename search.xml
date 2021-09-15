@@ -174,6 +174,28 @@
       </tags>
   </entry>
   <entry>
+    <title>常用基础Dos命令</title>
+    <url>/2021/07/06/%E5%9F%BA%E6%9C%ACDos%E5%91%BD%E4%BB%A4/</url>
+    <content><![CDATA[<h1 id="基本Dos命令"><a href="#基本Dos命令" class="headerlink" title="基本Dos命令"></a>基本Dos命令</h1><h4 id="一、打开CMD的方式"><a href="#一、打开CMD的方式" class="headerlink" title="一、打开CMD的方式"></a>一、打开CMD的方式</h4><ol>
+<li>开始 ——&gt; Windows命令 ——&gt; 命令提示符。</li>
+<li>Win键+R，输入cmd打开控制台。（推荐使用）</li>
+<li>在任意文件下面，按住shift键+鼠标右键点击，选择 ”在此处打开Powershell窗口(S) “ 选项。</li>
+<li>在资源管理器的地址栏最前面加上 cmd。</li>
+</ol>
+<h4 id="二、管理员方式运行"><a href="#二、管理员方式运行" class="headerlink" title="二、管理员方式运行"></a>二、管理员方式运行</h4><ol>
+<li>开始 ——&gt; Windows命令 ——&gt; 命令提示符 ——&gt; 右击选择”更多“ ——&gt;  选择”以管理员身份运行“。</li>
+</ol>
+<h4 id="三、常用的Dos命令"><a href="#三、常用的Dos命令" class="headerlink" title="三、常用的Dos命令"></a>三、常用的Dos命令</h4><figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">1.盘符切换</span><br><span class="line">    D:			盘符+:  (注意“:”是英文状态下的符号)</span><br><span class="line">    cd: /d e:	“/d”参数表示跨盘符切换【重点】</span><br><span class="line"></span><br><span class="line">2.查看到当前目录下的所有文件</span><br><span class="line">	dir			可以先使用“D:”命令先进入盘里，然后输入dir命令可以查看当前目录下的所有文件</span><br><span class="line"></span><br><span class="line">3.切换目录</span><br><span class="line">    cd change directory</span><br><span class="line">    cd ..  		..代表上一级</span><br><span class="line"></span><br><span class="line">4.清理屏幕</span><br><span class="line">	cls			全文是：clear screen</span><br><span class="line">	</span><br><span class="line">5.退出终端</span><br><span class="line">	exit</span><br><span class="line">	</span><br><span class="line">6.查看电脑IP</span><br><span class="line">	ipconfig</span><br><span class="line">	</span><br><span class="line">7.常用小工具命令</span><br><span class="line">	calc		计算器</span><br><span class="line">	mspaint		画图工具</span><br><span class="line">	notepad		记事本</span><br><span class="line">	</span><br><span class="line">8.ping命令</span><br><span class="line">	ping www.baidu.com		(注：命令行界面“鼠标右击”粘贴)</span><br><span class="line">	</span><br><span class="line">9.文件基本操作命令</span><br><span class="line">	cd /d C:\Users\15267\Desktop	表示进入桌面</span><br><span class="line">	md Test【目录名】			md表示创建文件夹Test</span><br><span class="line">	cd Test【目录名】			cd表示进入文件夹Test</span><br><span class="line">	cd&gt;index.txt【文件名】		表示创建一个文件index.txt</span><br><span class="line">	del index.txt【文件名】		表示删除一个文件index.txt</span><br><span class="line">	cd ..			表示回到上一级</span><br><span class="line">	rd Test【目录名】			rd表示删除文件夹Test (注：直接删除，不放在回收站里)</span><br></pre></td></tr></tbody></table></figure>
+
+]]></content>
+      <categories>
+        <category>常用基础Dos命令</category>
+      </categories>
+      <tags>
+        <tag>常用基础Dos命令</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>PHP虚拟机配置</title>
     <url>/2021/09/10/PHP%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/</url>
     <content><![CDATA[<h4 id="一、配置虚拟主机"><a href="#一、配置虚拟主机" class="headerlink" title="一、配置虚拟主机"></a>一、配置虚拟主机</h4><p>​        <strong>1. 找到</strong>：<strong>C:\Windows\System32\drivers\etc\hosts</strong> 文件</p>
@@ -221,30 +243,8 @@
       </tags>
   </entry>
   <entry>
-    <title>常用基础Dos命令</title>
-    <url>/2021/07/06/%E5%9F%BA%E6%9C%ACDos%E5%91%BD%E4%BB%A4/</url>
-    <content><![CDATA[<h1 id="基本Dos命令"><a href="#基本Dos命令" class="headerlink" title="基本Dos命令"></a>基本Dos命令</h1><h4 id="一、打开CMD的方式"><a href="#一、打开CMD的方式" class="headerlink" title="一、打开CMD的方式"></a>一、打开CMD的方式</h4><ol>
-<li>开始 ——&gt; Windows命令 ——&gt; 命令提示符。</li>
-<li>Win键+R，输入cmd打开控制台。（推荐使用）</li>
-<li>在任意文件下面，按住shift键+鼠标右键点击，选择 ”在此处打开Powershell窗口(S) “ 选项。</li>
-<li>在资源管理器的地址栏最前面加上 cmd。</li>
-</ol>
-<h4 id="二、管理员方式运行"><a href="#二、管理员方式运行" class="headerlink" title="二、管理员方式运行"></a>二、管理员方式运行</h4><ol>
-<li>开始 ——&gt; Windows命令 ——&gt; 命令提示符 ——&gt; 右击选择”更多“ ——&gt;  选择”以管理员身份运行“。</li>
-</ol>
-<h4 id="三、常用的Dos命令"><a href="#三、常用的Dos命令" class="headerlink" title="三、常用的Dos命令"></a>三、常用的Dos命令</h4><figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">1.盘符切换</span><br><span class="line">    D:			盘符+:  (注意“:”是英文状态下的符号)</span><br><span class="line">    cd: /d e:	“/d”参数表示跨盘符切换【重点】</span><br><span class="line"></span><br><span class="line">2.查看到当前目录下的所有文件</span><br><span class="line">	dir			可以先使用“D:”命令先进入盘里，然后输入dir命令可以查看当前目录下的所有文件</span><br><span class="line"></span><br><span class="line">3.切换目录</span><br><span class="line">    cd change directory</span><br><span class="line">    cd ..  		..代表上一级</span><br><span class="line"></span><br><span class="line">4.清理屏幕</span><br><span class="line">	cls			全文是：clear screen</span><br><span class="line">	</span><br><span class="line">5.退出终端</span><br><span class="line">	exit</span><br><span class="line">	</span><br><span class="line">6.查看电脑IP</span><br><span class="line">	ipconfig</span><br><span class="line">	</span><br><span class="line">7.常用小工具命令</span><br><span class="line">	calc		计算器</span><br><span class="line">	mspaint		画图工具</span><br><span class="line">	notepad		记事本</span><br><span class="line">	</span><br><span class="line">8.ping命令</span><br><span class="line">	ping www.baidu.com		(注：命令行界面“鼠标右击”粘贴)</span><br><span class="line">	</span><br><span class="line">9.文件基本操作命令</span><br><span class="line">	cd /d C:\Users\15267\Desktop	表示进入桌面</span><br><span class="line">	md Test【目录名】			md表示创建文件夹Test</span><br><span class="line">	cd Test【目录名】			cd表示进入文件夹Test</span><br><span class="line">	cd&gt;index.txt【文件名】		表示创建一个文件index.txt</span><br><span class="line">	del index.txt【文件名】		表示删除一个文件index.txt</span><br><span class="line">	cd ..			表示回到上一级</span><br><span class="line">	rd Test【目录名】			rd表示删除文件夹Test (注：直接删除，不放在回收站里)</span><br></pre></td></tr></tbody></table></figure>
-
-]]></content>
-      <categories>
-        <category>常用基础Dos命令</category>
-      </categories>
-      <tags>
-        <tag>常用基础Dos命令</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>MyBatis入门</title>
-    <url>/2021/09/10/MyBatis%E5%85%A5%E9%97%A8/</url>
+    <url>/2021/09/15/MyBatis%E5%85%A5%E9%97%A8/</url>
     <content><![CDATA[<h3 id="一、关于Maven的项目结构"><a href="#一、关于Maven的项目结构" class="headerlink" title="一、关于Maven的项目结构"></a>一、关于Maven的项目结构</h3><p><strong>Maven的安装和配置：</strong><a href="https://blog.csdn.net/weixin_43811057/article/details/108235117">https://blog.csdn.net/weixin_43811057/article/details/108235117</a></p>
 <p><strong>IDEA的常用设置：</strong><a href="https://blog.csdn.net/weixin_42877515/article/details/106519142">https://blog.csdn.net/weixin_42877515/article/details/106519142</a></p>
 <p><strong>以下代码参考MyBatis入门官网：</strong><a href="https://mybatis.org/mybatis-3/zh/getting-started.html">https://mybatis.org/mybatis-3/zh/getting-started.html</a></p>
