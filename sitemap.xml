@@ -16,6 +16,34 @@
   </url>
   
   <url>
+    <loc>https://cailai.github.io/2021/07/06/%E5%9F%BA%E6%9C%ACDos%E5%91%BD%E4%BB%A4/</loc>
+    
+    <lastmod>2021-09-15</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://cailai.github.io/2021/07/06/Markdown%E5%9F%BA%E7%A1%80/</loc>
+    
+    <lastmod>2021-09-15</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://cailai.github.io/2021/07/05/Git%E5%9F%BA%E7%A1%80/</loc>
+    
+    <lastmod>2021-09-15</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://cailai.github.io/2021/06/08/hello-world/</loc>
+    
+    <lastmod>2021-09-15</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://cailai.github.io/gallery/wuhan/index.html</loc>
     
     <lastmod>2021-09-11</lastmod>
@@ -86,34 +114,6 @@
   </url>
   
   <url>
-    <loc>https://cailai.github.io/2021/07/06/%E5%9F%BA%E6%9C%ACDos%E5%91%BD%E4%BB%A4/</loc>
-    
-    <lastmod>2021-07-17</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://cailai.github.io/2021/07/06/Markdown%E5%9F%BA%E7%A1%80/</loc>
-    
-    <lastmod>2021-07-17</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://cailai.github.io/2021/07/05/Git%E5%9F%BA%E7%A1%80/</loc>
-    
-    <lastmod>2021-07-17</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://cailai.github.io/2021/06/08/hello-world/</loc>
-    
-    <lastmod>2021-07-10</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://cailai.github.io/comments/index.html</loc>
     
     <lastmod>2021-07-06</lastmod>
@@ -165,14 +165,21 @@
 
   
   <url>
-    <loc>https://cailai.github.io/tags/Git%E5%9F%BA%E7%A1%80%E6%93%8D%E4%BD%9C/</loc>
+    <loc>https://cailai.github.io/tags/Markdown/</loc>
     <lastmod>2021-09-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://cailai.github.io/tags/Markdown%E5%9F%BA%E7%A1%80/</loc>
+    <loc>https://cailai.github.io/tags/Git/</loc>
+    <lastmod>2021-09-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://cailai.github.io/tags/PHP/</loc>
     <lastmod>2021-09-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -187,13 +194,6 @@
   
   <url>
     <loc>https://cailai.github.io/tags/Hexo/</loc>
-    <lastmod>2021-09-15</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://cailai.github.io/tags/Git/</loc>
     <lastmod>2021-09-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -242,13 +242,6 @@
   </url>
   
   <url>
-    <loc>https://cailai.github.io/tags/Markdown/</loc>
-    <lastmod>2021-09-15</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://cailai.github.io/tags/Dos/</loc>
     <lastmod>2021-09-15</lastmod>
     <changefreq>daily</changefreq>
@@ -257,13 +250,6 @@
   
   <url>
     <loc>https://cailai.github.io/tags/%E5%B8%B8%E7%94%A8%E5%9F%BA%E7%A1%80Dos%E5%91%BD%E4%BB%A4/</loc>
-    <lastmod>2021-09-15</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://cailai.github.io/tags/PHP/</loc>
     <lastmod>2021-09-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -279,14 +265,21 @@
 
   
   <url>
-    <loc>https://cailai.github.io/categories/Git%E5%9F%BA%E7%A1%80/</loc>
+    <loc>https://cailai.github.io/categories/Markdown/</loc>
     <lastmod>2021-09-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://cailai.github.io/categories/Markdown%E5%9F%BA%E7%A1%80/</loc>
+    <loc>https://cailai.github.io/categories/Git/</loc>
+    <lastmod>2021-09-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://cailai.github.io/categories/PHP/</loc>
     <lastmod>2021-09-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -301,13 +294,6 @@
   
   <url>
     <loc>https://cailai.github.io/categories/%E5%B8%B8%E7%94%A8%E5%9F%BA%E7%A1%80Dos%E5%91%BD%E4%BB%A4/</loc>
-    <lastmod>2021-09-15</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://cailai.github.io/categories/PHP/</loc>
     <lastmod>2021-09-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
